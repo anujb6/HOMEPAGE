@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------ UpperPart ----------------*/
+.upperpart{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+.name h2{
+    text-align: left;
+    padding: 5% 0 0 9%;
+    font-size: 29px;
+    font-weight: 900;
+    cursor: pointer;
+} 
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    float: left;
+    padding-right: 9%;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.navbar a:hover{
+    transform: scale(1.1,1.1);
+}
+.navbar ul{
+    margin-left: 10%;
+    padding-top: 6.9%;
+}
+/*---------------------------------------*/
+/*------------- story or home --------------*/
+.story{
+    padding: 5% 2% 0 2%;
+}
+.story h5{
+    color: rgb(85, 197, 235);
+    font-size: 13px;
+    padding: 0 0 0 20%;
+    cursor: pointer;
+}
+.story h5:hover{
+    transform: scale(1,1.1);
+}
+.story h1{
+    padding: 1% 0 1% 20%;
+    font-size: 40px;
+    font-weight: 500;
+}
+.story img{
+    width: 100%;
+    padding: 1%;
+    border-radius: 30px;
+}
+.story p{
+    padding: 1% 0 1% 20%;
+    font-size: 15px;
+    font-weight:100;
+    color:rgb(73, 72, 72);
+}
+.contact{
+    padding: 1% 0 1% 20%;
+}
+.contact h6{
+    font-weight: 100;
+    color: rgb(148, 144, 144);
+    padding-bottom: 5px;
+}
+.contact input{
+    width: 16%;
+    padding: 0.5%;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 204, 204);
+}
+.contact button{
+   padding: 3px 10px 3px 10px;
+   background-color: rgb(60, 173, 211);
+   border:1px solid rgb(85, 197, 235);
+   border-radius: 4px;
+   color: rgb(248, 240, 240);
+   cursor: pointer;
+}
+.contact button:active{
+    border:1px solid rgb(85, 197, 235);
+}
+/*-------------------------------------------*/
+/*----------------Services--------------------*/
+.services{
+    padding: 10% 2% 0 2%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3% 10% 3% 14%;
+}
+.cards div{
+    width: 70%;
+}
+.services h2{
+    padding:0 0 1% 11% ;
+    font-size: 30px;
+}
+.cards i{
+    padding: 0 0 9% 0;
+}
+.ux i{
+    color: rgb(85, 197, 235);
+    font-size: 55px;
+}
+.front-end i{
+    color:rgb(7, 214, 7);
+    font-size: 55px;
+}
+.back-end i{
+    color:rgb(243, 24, 24);
+    font-size: 55px;
+}
+.ux{
+    background-color: rgb(255, 255, 255);
+    padding: 5% 0 6% 0;
+    border-radius: 10px;
+    
+}
+.front-end{
+    background-color: rgb(255, 255, 255);
+    padding: 5% 0 6% 0;
+    border-radius: 10px;
+    
+}
+.back-end{
+    background-color: rgb(255, 255, 255);
+    padding: 5% 0 6% 0;
+    border-radius: 10px;
+    
+}
+.cards h3{
+    padding-bottom: 5%;
+}
+.cards p{
+    padding: 2% 2% 8% 1%;
+    color: rgb(80, 78, 78);
+    font-size: 12px;
+}
+.cards a{
+    text-decoration: none;
+    background-color: rgb(214, 212, 212);
+    color: aliceblue;
+    padding: 2% 3% 2% 3%;
+    border-radius: 10px;
+}
+.front-end a{
+    background-color:rgb(59, 150, 180) ;
+}
+.cards a:hover{
+    background-color: rgb(59, 150, 180);
+}
+.front-end a:hover{
+    background-color: rgb(214, 212, 212);
+}
+.ux:hover{
+  transform: scale(1.1,1.1);
+  box-shadow: 5px 10px 10px #e2e0e0;
+}
+.front-end:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 10px 10px #e2e0e0;
+}
+.back-end:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 10px 10px #e2e0e0;
+}
+/*----------------------------------------------------*/
+/*-----------------product-pages---------------------*/
+.product-pages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1% 5% 0 5%;
+}
+.product h2{
+    padding: 15% 0 0 22%;
+}
+.product-pages img{
+    width:60%;
+    border-radius: 10px;
+}
+.booking{
+    margin-left: 37%;
+}
+.left h3{
+    padding: 0 0 15% 38%;
+}
+.right h3{
+    padding-bottom: 15%;
+}
+h6{
+    color: rgb(126, 123, 123);
+}
+.left h6{
+    padding:2% 0 0 38.5% ;
+    color: rgb(126, 123, 123);
+}
+.smarthome{
+    margin-top: 11%;
+    margin-left: 37%;
+}
+.right h4{
+    padding-left: 40%;
+    color: rgb(52, 196, 196);
+    cursor: pointer;
+}
+.right h4:hover{
+    transform: scale(1,1.1);
+}
+/*-----------------------------------------------------*/
+/*---------------Team-------------------*/
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8% 4% 4% 4%;
+}
+.two-side{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.two-side img{
+    border-radius: 10%;
+}
+.first-img img{
+    width: 90%;
+    margin-top: 20%;
+    margin-left: 2%;
+}
+#one{
+    width: 70%;
+    padding-bottom: 1%;
+}
+#two{
+    width:80%;
+    margin-right: 3%;
+}
+.one-side{
+    padding-left: 20%;
+}
+.one-side h4{
+    padding-top: 20%;
+    color: rgb(255, 0, 0);
+}
+.one-side p{
+    padding: 2% 0 0 0;
+    color: rgb(126, 123, 123);
+    font-size: 16px;
+}
+.one-side h2{
+    padding:1% 0 0 0;
+    font-size: 32px;
+}
+
+/*----------------------------------*/
+/*----------------quote---------------*/
+.message{
+    display: grid;
+    padding: 8% 0 0  12%;
+}
+.head{
+    display: grid;
+    grid-template-columns: 4% 50%;
+    padding-top:2%;
+}
+.id{
+    margin-left: 1.5%;
+}
+.id h4{
+    padding-bottom: 1%;
+}
+
+.head img{
+    width: 88%;
+    border-radius: 8px;
+}
+/*----------------------------------------*/
+/*--------------Footer---------------------*/
+footer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2%;
+    background-color: rgb(6, 6, 87);
+    margin-top: 10%;
+}
+.nav li{
+    list-style: none;
+}
+.nav li:hover{
+    transform:scale(1.2,1.2);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    text-decoration: underline solid 1px white;
+}
+.links{
+    color: aliceblue;
+    cursor: pointer;
+}
+.links i:hover{
+    transform:scale(1.2,1.2);
+}
+.mail button{
+    padding: 5px;
+    background-color: rgb(60, 173, 211);
+    border:1px solid rgb(85, 197, 235);
+    border-radius: 4px;
+    color: rgb(248, 240, 240);
+    cursor: pointer;
+}
+.mail input{
+    width: 20%;
+    padding: 0.5%;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 204, 204);
+}
+/*-----------------------------------------------*/
+
